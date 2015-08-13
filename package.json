@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.5.2",
-    "jxon": "^1.3.2",
+    "jxon": "git://github.com/petuomin/jxon",
     "marc-record-js": "^0.1.1",
     "q": "^1.2.0"
   },
