@@ -20,7 +20,6 @@ module.exports = function(grunt) {
 				'!coverage/**'
 				]
 			},
-		 
 		},
 
 		mochaTest: {
@@ -31,6 +30,7 @@ module.exports = function(grunt) {
 				src: [ 'test/*spec.js' ]
 			}
 		},
+		
 		mocha_phantomjs: {
 			options: {
 				reporter: 'spec'
