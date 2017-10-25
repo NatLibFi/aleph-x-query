@@ -1,13 +1,23 @@
 {
   "name": "aleph-x-query",
   "version": "1.0.1",
-  "description": "A module for querying records from Aleph X-services",
+  "description": "A module for querying records from Aleph X-service",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "homepage": "https://github.com/NatLibFi/aleph-x-query",
+  "bugs": {
+    "url": "https://github.com/NatLibFi/aleph-x-query/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NatLibFi/aleph-x-query.git"
+  },
+  "license": "LGPL-3.0+",
   "main": "lib/query.js",
   "scripts": {
     "test": "grunt default"
   },
-  "author": "Pasi Tuominen <pasi.tuominen@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.5.2",
     "jxon": "git://github.com/petuomin/jxon",
