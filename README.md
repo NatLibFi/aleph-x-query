@@ -1,6 +1,4 @@
-# aleph-x-query
-
-Client library for making queries (op=find) to Aleph ILS X-server.
+# A module for querying records from Aleph X-service
 
 ## Installation
 
@@ -32,3 +30,8 @@ aleph.query(base, index, searchTerm).then(function(records) {
 }).done();
 
 ```
+## License and copyright
+
+Copyright (c) 2015-2017 University Of Helsinki (The National Library Of Finland)
+
+This project's source code is licensed under the terms of **GNU Lesser General Public License Version 3**  or any later version.
